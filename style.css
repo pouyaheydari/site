@@ -1,0 +1,82 @@
+body{
+ padding: 0;
+ margin: 0;
+ font-family: tahoma;
+}
+div.content{
+    width: 80%;
+    margin: 0 auto;
+}
+div.menu{
+    background: rgb(0, 255, 157);
+    height: 150px;
+}
+div.menu ul.brand {
+   list-style: none;
+   float: left;
+   margin: 0;
+   padding: 0;
+   
+}
+div.menu ul.brand li{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 150px;
+    margin-left: 40px;
+     margin-right: 40px;
+     color: white;
+}
+div.menu ul.link {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    margin-right: 60px;
+    
+ }
+ div.menu ul.link li{
+     font-size: 15px;
+     font-weight: bold;
+     display: inline;
+     line-height: 150px;
+     margin-left: 15px;
+     margin-right: 15px;
+     color: white;
+ }
+div.details{
+    height: 475px;
+    background: rgba(255, 127, 80, 0.76);
+    text-align: center;
+}
+div.details img.profile{
+ margin-top: 11px;
+}
+div.details p{
+    margin: 0 20%;
+    padding: 1 20%;
+}
+div.gallery{
+    min-height: 500px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+div.gallery div.thumbnali{
+    width: 33%;
+    
+}
+div.footer{
+    height: 150px;
+    background: dimgrey;
+    color: white;
+    display: flex;
+}
+div.footer div{
+    width: 33%;
+    padding: 8px 20px;
+}
+div.footer div ul{
+    list-style: none;
+}
